@@ -1,14 +1,14 @@
 {
-  "name": "challenge-12---number-rendering",
+  "name": "challenge-12",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc index.ts"
   },
-  "author": "",
+  "author": "Harry Wright",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "@types/node": "^16.11.1",
     "typescript": "^4.4.4"
   }
 }
